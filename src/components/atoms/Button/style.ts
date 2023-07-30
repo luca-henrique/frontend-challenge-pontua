@@ -2,14 +2,10 @@ import styled from 'styled-components';
 import {COLORS} from '../../../common/colors';
 
 export const Container = styled.button`
-  width: 100%;
   border: none;
   height: 57px;
-  padding: 16px 107px;
-  flex-direction: column;
   justify-content: center;
   align-items: center;
-  gap: 10px;
   background: ${COLORS.blue600};
   color: ${COLORS.white};
   border-radius: 10px;
@@ -21,4 +17,5 @@ export const Container = styled.button`
 
   display: flex;
   flex-direction: row;
+  width: 100%;
 `;
