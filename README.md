@@ -6,6 +6,8 @@
 
 ## [https://developer.marvel.com/](https://developer.marvel.com/)<br>
 
+// https://rapidapi.com/ujjandeveloper/api/register-and-login-with-jwt-token/
+
 > Qualquer dúvida poderá ser enviada por e-mail em tecnologia@pontua.com.br;<br>
 > O prazo para finalização do teste deverá ser fornecido pelo RH;<br> >**_Não deixe de entregar sua aplicação_** mesmo que não esteja pronta ou perfeita;<br>
 > A entrega do código deverá ser feita no GitHub e após o término, notificar o time atráves do e-mail tecnologia@pontua.com.br e gente@pontua.com.br.
