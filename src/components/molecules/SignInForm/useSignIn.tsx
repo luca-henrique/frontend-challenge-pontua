@@ -11,6 +11,10 @@ import {yupResolver} from '@hookform/resolvers/yup';
 import * as yup from 'yup';
 import {ErrorMessage} from '../../../constants/error-message';
 
+import {StepContextType} from '../../../@types/step';
+import {UserStepContext} from '../../../context/UserStepsContextProvider';
+import {useContext} from 'react';
+
 const schema = yup.object({
   email: yup
     .string()
@@ -36,8 +40,11 @@ export const useSignIn = () => {
 
   const {errors} = formState;
 
+  const {changerStep} = useContext(UserStepContext) as StepContextType;
+
   const handleFormSubmit = (data: SignInFormProps) => {
     console.log(data);
+    changerStep(3);
   };
 
   return {errors, handleFormSubmit: handleSubmit(handleFormSubmit), control};

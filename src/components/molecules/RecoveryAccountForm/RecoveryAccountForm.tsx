@@ -12,12 +12,13 @@ export const RecoveryAccountForm = () => {
         <Title>
           Recuperar senha<label>.</label>
         </Title>
+        <div style={{height: '1.75rem'}} />
+        <div style={{height: '1rem'}} />
         <Paragraphy>
           Informe o e-mail do seu cadastro. Nós estaremos realizando o envio de
           um link com as instruções para você redefinir a sua senha.
         </Paragraphy>
-        <div style={{height: '6px'}} />
-
+        <div style={{height: '0.69rem'}} />
         <InputText
           name='email'
           type='email'

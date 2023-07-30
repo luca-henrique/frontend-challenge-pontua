@@ -13,9 +13,10 @@ export const Button = ({
   type = 'button',
   icon,
   disabled,
+  ...props
 }: ButtonProps) => {
   return (
-    <Container type={type} disabled={disabled}>
+    <Container type={type} disabled={disabled} {...props}>
       {children}
       {icon && (
         <img

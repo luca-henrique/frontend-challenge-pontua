@@ -12,7 +12,7 @@ export const ContainerForm = styled.form`
   border-radius: 28px;
   background-color: #fff;
   padding: 49px 33px;
-  width: 20.67rem;
+  width: 331px;
 `;
 
 export const Title = styled.h1`
