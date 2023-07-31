@@ -68,6 +68,7 @@ import styled from 'styled-components';
 export const Paragraphy = styled.p`
   line-break: auto;
   white-space: nowrap;
+  overflow: hidden;
   text-overflow: ellipsis;
   max-height: 96px;
   max-width: 140px;

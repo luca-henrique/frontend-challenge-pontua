@@ -1,17 +1,15 @@
 import {Routes, Route} from 'react-router-dom';
-
-import {Dashboard, SignIn} from '../pages/';
-import {Home} from '../pages/Home/Home';
+import {Dashboard, SignIn, Home, Profile} from '../pages/';
 
 export const Router = () => {
   return (
     <>
       <Routes>
-        <Route path='/entrar' element={<SignIn />} />
-        <Route path='dashboard' element={<Dashboard />} />
+        <Route path='/' element={<SignIn />} />
 
         <Route element={<Dashboard />}>
-          <Route path='/' element={<Home />} />
+          <Route path='/dashboard' element={<Home />} />
+          <Route path='/perfil' element={<Profile />} />
         </Route>
       </Routes>
     </>

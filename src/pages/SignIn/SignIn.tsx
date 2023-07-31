@@ -9,7 +9,7 @@ export const SignIn = () => {
 
   return (
     <Container>
-      <div
+      <header
         style={{paddingLeft: '106px', paddingTop: '49px', marginBottom: '40px'}}
       >
         <img
@@ -17,8 +17,8 @@ export const SignIn = () => {
           style={{width: '169px', height: '50px'}}
           loading='lazy'
         />
-      </div>
-      <div
+      </header>
+      <section
         style={{
           display: 'flex',
           flexDirection: 'row',
@@ -34,7 +34,7 @@ export const SignIn = () => {
         <UserStepsContextProvider>
           <UserSteps />
         </UserStepsContextProvider>
-      </div>
+      </section>
     </Container>
   );
 };

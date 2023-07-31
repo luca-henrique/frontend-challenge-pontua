@@ -6,7 +6,10 @@
 
 ## [https://developer.marvel.com/](https://developer.marvel.com/)<br>
 
-// https://rapidapi.com/ujjandeveloper/api/register-and-login-with-jwt-token/
+https://www.figma.com/file/QFEzv3O4PWCzmvicy7e7sm/Teste-de-Desenvolvimento?node-id=0-1&t=D2fOR8TxhmRi52td-0
+https://www.markdownguide.org/extended-syntax/
+https://developer.marvel.com/documentation/authorization
+https://rapidapi.com/ujjandeveloper/api/register-and-login-with-jwt-token/
 
 > Qualquer dúvida poderá ser enviada por e-mail em tecnologia@pontua.com.br;<br>
 > O prazo para finalização do teste deverá ser fornecido pelo RH;<br> >**_Não deixe de entregar sua aplicação_** mesmo que não esteja pronta ou perfeita;<br>
