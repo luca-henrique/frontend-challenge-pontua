@@ -3,9 +3,10 @@ import {UserSteps} from '../../components/organisms/UserSteps/UserSteps';
 import UserStepsContextProvider from '../../context/UserStepsContextProvider';
 import {Container} from './style';
 
+import {Icon} from '../../components';
+
 export const SignIn = () => {
   const Logo = ICONS['logo-icon'];
-  const BuildingHome = ICONS['building-home'];
 
   return (
     <Container>
@@ -26,11 +27,7 @@ export const SignIn = () => {
           justifyContent: 'space-around',
         }}
       >
-        <img
-          src={BuildingHome}
-          style={{width: '612px', height: '458px'}}
-          loading='lazy'
-        />
+        <Icon />
         <UserStepsContextProvider>
           <UserSteps />
         </UserStepsContextProvider>

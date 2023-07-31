@@ -2,10 +2,12 @@
 
 ## Projeto
 
-- [ ] Configurar para usar svg como componente
+- [ ] Criar componente de icons
+- [x] Configurar para usar svg como componente
 - [ ] Criar .env
 - [ ] Criar service para fazer requisição na API do login
 - [ ] Criar service para fazer requisição na API da marvel
+- [ ] Criar absolute import
 
 ## Router
 
