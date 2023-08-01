@@ -2,11 +2,13 @@
 import {InputHTMLAttributes} from 'react';
 import {ContainerInput, ErrorMessage, Input, Container} from './style';
 import {Control, Controller, FieldValues} from 'react-hook-form';
+import {Icon} from '..';
 
 interface InputTextProps extends InputHTMLAttributes<HTMLInputElement> {
   name: string;
   errors?: string;
   control?: Control<FieldValues | any>;
+  iconName?: string;
 }
 
 export const InputText = ({
@@ -15,8 +17,13 @@ export const InputText = ({
   type,
   placeholder,
   errors,
+  iconName,
 }: InputTextProps) => {
-  console.log('errors', errors);
+  const isPasswordIcon = type === 'password' && 'password-icon';
+  const isEmailIcon = type === 'email' && 'email-icon';
+  const isIconName = iconName ? iconName : '';
+
+  const hasIcon = isPasswordIcon || isEmailIcon || isIconName;
 
   return (
     <Controller
@@ -32,6 +39,11 @@ export const InputText = ({
               onChange={onChange}
               placeholder={placeholder}
             />
+            {hasIcon ? (
+              <Icon width='17px' height='17px' name={hasIcon} />
+            ) : (
+              <></>
+            )}
           </ContainerInput>
           <ErrorMessage>{errors && errors}</ErrorMessage>
         </Container>

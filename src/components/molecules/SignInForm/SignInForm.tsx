@@ -3,6 +3,7 @@ import {Container, ContainerForm, Title, Paragraphy} from './style';
 import {Button} from '../../atoms/Button/Button';
 import {RecoveryAccountLinkContainer} from '../RecoveryAccountLinkContainer/RecoveryAccountLinkContainer';
 import {useSignIn} from './useSignIn';
+import {Separator} from '@/components';
 
 export const SignInForm = () => {
   const {handleFormSubmit, control, errors} = useSignIn();
@@ -13,9 +14,9 @@ export const SignInForm = () => {
         <Title>
           Bem Vindo<label>.</label>
         </Title>
-        <div style={{height: '6px'}} />
+        <Separator height={6} />
         <Paragraphy>informe as suas credenciais de acesso ao portal</Paragraphy>
-        <div style={{height: '6px'}} />
+        <Separator height={6} />
         <InputText
           name='email'
           type='email'
@@ -30,7 +31,7 @@ export const SignInForm = () => {
           control={control}
           errors={errors?.password?.message}
         />
-        <div style={{height: '6px'}} />
+        <Separator height={6} />
         <Button type='submit' icon='name'>
           entrar
         </Button>

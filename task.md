@@ -4,9 +4,9 @@
 
 - [x] Criar componente de icons
 - [x] Configurar para usar svg como componente
-- [ ] Criar .env
-- [ ] Criar service para fazer requisição na API do login
-- [ ] Criar service para fazer requisição na API da marvel
+- [] Criar .env
+- [] Criar service para fazer requisição na API do login
+- [] Criar service para fazer requisição na API da marvel
 - [x] Criar absolute import
 
 ## Router
@@ -20,8 +20,9 @@
 - [x] Criar componente para a logo (HeaderLogoSignIn)
 - [x] Remover css que esteja fora do styled-components
 - [x] Como melhorar a importação dos icons (Por enquanto criando um component para fazer isso)
-- [] Adicionar icones para o inputs (email,password)
-- [] Ver os criterios de aceite
+- [x] Ajustar importações do UserSteps
+- [x] Adicionar icones para o inputs (email,password)
+- [x] Ver os criterios de aceite
 - [] Mensagem de erro caso dê errado para fazer o login (Toastfy)
 - [] Adiconar border-color diferente quando tiver com erro o input(https://youtu.be/W04GlUHkAcY?t=1852)
 - [] Criar hook para entrar no sistema
