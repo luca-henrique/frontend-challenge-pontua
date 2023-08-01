@@ -6,18 +6,12 @@ import {Container} from './style';
 import {Icon} from '../../components';
 
 export const SignIn = () => {
-  const Logo = ICONS['logo-icon'];
-
   return (
     <Container>
       <header
         style={{paddingLeft: '106px', paddingTop: '49px', marginBottom: '40px'}}
       >
-        <img
-          src={Logo}
-          style={{width: '169px', height: '50px'}}
-          loading='lazy'
-        />
+        <Icon width='169px' height='50px' />
       </header>
       <section
         style={{
@@ -27,7 +21,7 @@ export const SignIn = () => {
           justifyContent: 'space-around',
         }}
       >
-        <Icon />
+        <Icon name='build-home' width='611px' height='458px' />
         <UserStepsContextProvider>
           <UserSteps />
         </UserStepsContextProvider>

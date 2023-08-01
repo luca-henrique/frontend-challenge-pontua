@@ -1,8 +1,6 @@
 import {ReactComponent as BuildingHome} from './building-sign-in.svg';
+import {ReactComponent as LogoHome} from './logo.svg';
 
-import Logo from './logo.svg';
-
-import EmailIcon from './email.svg';
 import EyeIcon from './open-eye.svg';
 import SignInIcon from './sign-in-icon.svg';
 import RecoveryAccountIcon from './recovery-account.svg';
@@ -14,8 +12,8 @@ import ProfileIcon from './profile.svg';
 import LogoutIcon from './logout.svg';
 
 export const ICONS = {
-  'logo-icon': Logo,
-  'email-icon': EmailIcon,
+  'build-home': BuildingHome,
+  'logo-home': LogoHome,
   'eye-icon': EyeIcon,
   'sign-in-icon': SignInIcon,
   'recovery-account-icon': RecoveryAccountIcon,

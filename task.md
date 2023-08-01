@@ -2,7 +2,7 @@
 
 ## Projeto
 
-- [ ] Criar componente de icons
+- [x] Criar componente de icons
 - [x] Configurar para usar svg como componente
 - [ ] Criar .env
 - [ ] Criar service para fazer requisição na API do login
