@@ -6,7 +6,7 @@ export const UserStepContext = React.createContext<StepContextType | null>(
   null,
 );
 
-const UserStepsContextProvider = ({children}: any) => {
+export const UserStepsContextProvider = ({children}: any) => {
   const [step, setStep] = React.useState(0);
 
   const changerStep = (newStep: number) => {
@@ -19,5 +19,3 @@ const UserStepsContextProvider = ({children}: any) => {
     </UserStepContext.Provider>
   );
 };
-
-export default UserStepsContextProvider;

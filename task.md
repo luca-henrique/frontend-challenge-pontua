@@ -15,19 +15,17 @@
 
 ## SingIn
 
-- [ ] Verificar pagina SignIn
-- [ ] Ver como posso melhorar os componentes da pagina SignIn
-- [ ] Criar componente para a logo (HeaderLogoSignIn)
-- [ ] Criar componente para a logo do context (ContentImage)
-- [ ] Ajustar Context em componente separado (ContextStepsUser)
-- [ ] Criar componente para separar o conteudo da pagina ContentImage + ContextStepsUser (HeaderLogoSignIn)
-- [ ] Procurar uma forma para por uma loading para mostrar o conteudo apenas quando a pagina estiver totalmente montada
-- [ ] Remover css que esteja fora do styled-components
-- [ ] Como melhorar a importação dos icons (Por enquanto criando um component para fazer isso)
-- [ ] Adicionar icones para o inputs (email,password)
-- [ ] Ver os criterios de aceite
-- [ ] Mensagem de erro caso dê errado para fazer o login (Toastfy)
-- [ ] Adiconar border-color diferente quando tiver com erro o input(https://youtu.be/W04GlUHkAcY?t=1852)
+- [x] Verificar pagina SignIn
+- [x] Ver como posso melhorar os componentes da pagina SignIn
+- [x] Criar componente para a logo (HeaderLogoSignIn)
+- [x] Remover css que esteja fora do styled-components
+- [x] Como melhorar a importação dos icons (Por enquanto criando um component para fazer isso)
+- [] Adicionar icones para o inputs (email,password)
+- [] Ver os criterios de aceite
+- [] Mensagem de erro caso dê errado para fazer o login (Toastfy)
+- [] Adiconar border-color diferente quando tiver com erro o input(https://youtu.be/W04GlUHkAcY?t=1852)
+- [] Criar hook para entrar no sistema
+- [] Criar hook para criar auth de rota
 
 ### Critérios de aceite
 
