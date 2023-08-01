@@ -35,7 +35,6 @@ export const SignInForm = () => {
         <Button type='submit' icon='name'>
           entrar
         </Button>
-
         <RecoveryAccountLinkContainer />
       </ContainerForm>
     </Container>
