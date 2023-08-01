@@ -1,5 +1,6 @@
-import {Icon, HeaderLogoSignIn, UserSteps} from '../../components';
-import {UserStepsContextProvider} from '../../context/';
+import {Icon, HeaderLogoSignIn, UserSteps} from '@/components';
+import {UserStepsContextProvider} from '@/context/';
+
 import {Container, Section} from './style';
 
 export const SignIn = () => {

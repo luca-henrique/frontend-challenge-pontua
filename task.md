@@ -7,7 +7,7 @@
 - [ ] Criar .env
 - [ ] Criar service para fazer requisição na API do login
 - [ ] Criar service para fazer requisição na API da marvel
-- [ ] Criar absolute import
+- [x] Criar absolute import
 
 ## Router
 
