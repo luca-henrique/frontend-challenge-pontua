@@ -8,6 +8,7 @@
 - [] Criar service para fazer requisição na API do login
 - [] Criar service para fazer requisição na API da marvel
 - [x] Criar absolute import
+- [] Criar usuario para testar auth jwt
 
 ## Router
 
@@ -25,7 +26,8 @@
 - [x] Ver os criterios de aceite
 - [] Mensagem de erro caso dê errado para fazer o login (Toastfy)
 - [] Adiconar border-color diferente quando tiver com erro o input(https://youtu.be/W04GlUHkAcY?t=1852)
-- [] Criar hook para entrar no sistema
+- [] Criar hook para entrar no sistema [https://www.youtube.com/watch?v=xYC95EXsh8M&ab_channel=DevJuniorAlves]
+- [] Criar hook para localStorage
 - [] Criar hook para criar auth de rota
 
 ### Critérios de aceite
